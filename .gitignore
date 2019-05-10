@@ -22,3 +22,6 @@
 
 # Ignore config files
 config/io-*.yml
+
+# Ignore dev env
+.env

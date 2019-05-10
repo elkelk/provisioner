@@ -23,6 +23,7 @@ gem 'clearance'
 
 gem 'adobe-io', '0.5.0', git: 'https://github.com/Adobe-Marketing-Cloud/adobe-io-ruby.git'
 
+gem 'dotenv-rails', groups: [:development, :test]
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'pry'
