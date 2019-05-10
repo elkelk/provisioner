@@ -21,7 +21,7 @@ gem 'json-api-vanilla'
 gem 'ffaker'
 gem 'clearance'
 
-gem 'ruby-adobe-io', '0.4.0', source: 'https://obdkxJv4xLM3y78hPJFK@gem.fury.io/jwalter748/'
+gem 'adobe-io', '0.5.0', git: 'https://github.com/Adobe-Marketing-Cloud/adobe-io-ruby.git'
 
 group :development, :test do
   gem 'byebug', platform: :mri

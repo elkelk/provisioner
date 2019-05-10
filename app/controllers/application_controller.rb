@@ -9,7 +9,7 @@ class ApplicationController < ActionController::Base
   end
 
   def access_token
-    @access_token ||= AdobeIo::AccessToken.new.generate
+    @access_token ||= AdobeIO::AccessToken.new.generate
   end
 
   def sse

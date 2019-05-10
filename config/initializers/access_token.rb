@@ -1,6 +1,6 @@
-require 'ruby_adobe_io'
+require 'adobe_io'
 
-AdobeIo.configure do |config|
+AdobeIO.configure do |config|
   config.client_secret = ENV['IO_CLIENT_SECRET']
   config.api_key = ENV['IO_API_KEY']
   config.ims_host = ENV['IO_IMS_HOST']
